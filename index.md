@@ -1,6 +1,6 @@
 ---
 layout: default
-title: gerob
+title: gerob (aka Jollygg)
 ---
 
 <header class="hero">
