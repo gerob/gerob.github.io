@@ -1,11 +1,14 @@
 ---
 layout: default
 title: gerob (aka Jollygg)
+description: Full-stack developer focused on APIs — PHP/Laravel, Node.js, Python. Maintainer of LootCollector and AdiBags-Ascension for World of Warcraft on Project Ascension.
+image: https://github.com/gerob.png
+permalink: /
 ---
 
 <header class="hero">
   <p class="eyebrow">{{ site.title }}</p>
-  <h1>{{ site.description }}</h1>
+  <h1>Full-stack developer focused on APIs — PHP/Laravel, Node.js, Python. Lua addons for World of Warcraft on the side.</h1>
 </header>
 
 <ul class="skills" aria-label="Skills">
@@ -45,6 +48,6 @@ title: gerob (aka Jollygg)
 </section>
 
 <footer>
-  <a href="https://github.com/gerob">GitHub</a>
-  <a href="https://github.com/sponsors/gerob">Sponsors</a>
+  <a href="https://github.com/gerob" rel="me">GitHub</a>
+  <a href="https://github.com/sponsors/gerob" rel="me">Sponsors</a>
 </footer>

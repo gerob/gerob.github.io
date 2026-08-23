@@ -1,2 +1,17 @@
 title: gerob (aka Jollygg)
-description: Full-stack developer focused on APIs — PHP/Laravel, Node.js, Python. Lua addons for World of Warcraft on the side.
+tagline: Full-stack API developer and Lua addons for Project Ascension
+description: Full-stack developer focused on APIs — PHP/Laravel, Node.js, Python. Maintainer of LootCollector and AdiBags-Ascension for World of Warcraft on Project Ascension.
+url: https://gerob.github.io
+lang: en_US
+author:
+  name: gerob
+  url: https://github.com/gerob
+logo: https://github.com/gerob.png
+social:
+  name: gerob (aka Jollygg)
+  links:
+    - https://github.com/gerob
+    - https://github.com/sponsors/gerob
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap

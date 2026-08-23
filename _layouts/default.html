@@ -3,9 +3,58 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="{{ site.description }}">
-  <title>{{ page.title | default: site.title }}</title>
+  {% seo %}
+  <meta name="theme-color" content="#161410">
   <link rel="stylesheet" href="{{ '/assets/styles.css' | relative_url }}">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Person",
+        "@id": "{{ site.url }}/#person",
+        "name": "gerob",
+        "alternateName": "Jollygg",
+        "url": "{{ site.url }}",
+        "image": "{{ site.logo }}",
+        "jobTitle": "Full-stack developer",
+        "sameAs": [
+          "https://github.com/gerob",
+          "https://github.com/sponsors/gerob"
+        ],
+        "knowsAbout": [
+          "APIs",
+          "PHP",
+          "Laravel",
+          "Node.js",
+          "Python",
+          "Lua",
+          "World of Warcraft"
+        ]
+      },
+      {
+        "@type": "SoftwareApplication",
+        "name": "LootCollector",
+        "applicationCategory": "GameApplication",
+        "operatingSystem": "Windows",
+        "description": "Find and track Worldforged items and enchants for Project Ascension.",
+        "url": "https://github.com/gerob/LootCollector",
+        "downloadUrl": "https://github.com/gerob/LootCollector/releases",
+        "author": { "@id": "{{ site.url }}/#person" }
+      },
+      {
+        "@type": "SoftwareApplication",
+        "name": "AdiBags-Ascension",
+        "applicationCategory": "GameApplication",
+        "operatingSystem": "Windows",
+        "description": "AdiBags fork for the Ascension 3.3.5 client — bank, keyring, junk, and merchant.",
+        "url": "https://github.com/gerob/AdiBags-Ascension",
+        "downloadUrl": "https://github.com/gerob/AdiBags-Ascension/releases",
+        "author": { "@id": "{{ site.url }}/#person" }
+      }
+    ]
+  }
+  </script>
 </head>
 <body>
   <div class="page">
