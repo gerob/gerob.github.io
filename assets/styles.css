@@ -87,15 +87,11 @@ a:focus-visible {
 }
 
 .projects {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 0.9rem;
   margin-top: 2rem;
 }
 
 .projects-title {
-  grid-column: 1 / -1;
-  margin: 0;
+  margin: 0 0 0.85rem;
   color: var(--muted);
   font-size: 0.82rem;
   font-weight: 650;
@@ -103,7 +99,15 @@ a:focus-visible {
   text-transform: uppercase;
 }
 
+.project-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.9rem;
+}
+
 .card {
+  display: flex;
+  flex-direction: column;
   background: var(--card);
   border: 1px solid var(--line);
   border-radius: 0.65rem;
@@ -146,7 +150,8 @@ a:focus-visible {
   display: flex;
   flex-wrap: wrap;
   gap: 0.6rem;
-  margin-top: 1rem;
+  margin-top: auto;
+  padding-top: 1.5rem;
 }
 
 .actions a {
@@ -193,7 +198,8 @@ footer {
     padding: 3.25rem 1.5rem 2.5rem;
   }
 
-  .projects {
+  .project-grid {
     grid-template-columns: 1fr 1fr;
+    align-items: stretch;
   }
 }
