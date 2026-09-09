@@ -2,7 +2,4 @@
 
 Jekyll source for the personal landing page at [gerob.github.io](https://gerob.github.io). The site homepage is `index.md`, not this file.
 
-Points to:
-
-- [LootCollector](https://github.com/gerob/LootCollector)
-- [AdiBags-Ascension](https://github.com/gerob/AdiBags-Ascension)
+Available to hire for web and mobile apps. Contact: [LinkedIn](https://www.linkedin.com/in/gerobkimball/) or [GitHub](https://github.com/gerob).

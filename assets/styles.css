@@ -69,6 +69,10 @@ a:focus-visible {
   color: var(--muted);
 }
 
+.hero .actions {
+  padding-top: 1.15rem;
+}
+
 .skills {
   display: flex;
   flex-wrap: wrap;
