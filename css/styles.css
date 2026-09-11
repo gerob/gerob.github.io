@@ -109,7 +109,7 @@ a:focus-visible {
 
 .projects-title {
   margin: 0 0 0.85rem;
-  color: var(--muted);
+  color: var(--accent);
   font-size: 0.82rem;
   font-weight: 650;
   letter-spacing: 0.06em;
@@ -192,6 +192,16 @@ a:focus-visible {
 
 .actions a:first-child .social-icon {
   color: var(--ink);
+}
+
+.actions a:first-child:hover .social-icon,
+.actions a:first-child:focus-visible .social-icon {
+  color: var(--accent);
+}
+
+.actions a:first-child:hover,
+.actions a:first-child:focus-visible {
+  background: var(--ink);
 }
 
 .actions a:last-child {
