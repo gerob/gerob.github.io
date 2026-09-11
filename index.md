@@ -1,11 +1,14 @@
 ---
 
-## layout: default title: Available to hire for web and mobile apps description: Gerob is a full-stack developer available to hire for web and mobile apps. PHP/Laravel, Node.js, Python, and JavaScript. Freelance or full-time. Reach out on LinkedIn or GitHub. image: [https://github.com/gerob.png](https://github.com/gerob.png)
+layout: default 
+title: Available to hire for web and mobile apps description: Gerob is a full-stack developer available to hire for web and mobile apps. PHP/Laravel, Node.js, Python, and JavaScript. Freelance or full-time. Reach out on LinkedIn or GitHub. 
+image: [https://github.com/gerob.png](https://github.com/gerob.png)
+
 permalink: /
 
 {{ site.title }}
 
-# Available to hire. I build web and mobile apps.
+---
 
 Full-stack APIs and front-end in PHP/Laravel, Node.js, Python, and JavaScript. Web and mobile first â€” other platforms if you need them. Freelance, contract, or full-time.
 
@@ -26,8 +29,6 @@ I design and ship application backends, payment flows, data work, and testing â€
   <p>I build mobile apps and will work on other platforms when the product needs it. Get in touch with the problem and the stack you want.</p>
 </article>
 ```
-
-
 
 - APIs
 - PHP/Laravel
